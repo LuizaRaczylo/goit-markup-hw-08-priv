@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-section container">
+        <a href="index.html" class="logo header-section__logo link transition"
+          ><span class="logo--color">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="navigation section__list">
+            <li class="navigation__item">
+              <a href="index.html" class="navigation__link link transition">Agencja</a>
+            </li>
+            <li class="navigation__item">
+              <a href="portfolio.html" class="navigation__link link navigation__link--activepage transition">Portfolio</a>
+            </li>
+            <li class="navigation__item"><a href="" class="navigation__link link transition">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="contact section__list">
+          <li class="contact__item">
+            <a class="contact__link link transition" href="mailto:info@devstudio.com">
+              <svg class="contact__icon contact__icon--mail">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contact__item">
+            <a href="tel:+48111111111" class="contact__link link transition">
+              <svg class="contact__icon contact__icon--tel">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <ul class="section__list filter container">
+        <li><button class="button button--filter transition" type="button">Wszystkie</button></li>
+        <li><button class="button button--filter transition" type="button">Strony</button></li>
+        <li><button class="button button--filter transition" type="button">Aplikacje</button></li>
+        <li><button class="button button--filter transition" type="button">Dizajn</button></li>
+        <li><button class="button button--filter transition" type="button">Marketing</button></li>
+      </ul>
+    </section>
+    <section class="container container--offer">
+      <ul class="offer__list">
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/people.jpg"
+              alt="laptop ze zdjęciami trzech osób"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
+                do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer-item offer__label">Technocrack</span>
+              <p class="offer-category offer__category">Strona internetowa</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/basket.jpg"
+              alt="koszykarze"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Grafika New Orlean vs Golden Star</span>
+              <p class="offer__category">Dizajn</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/seafood.jpg"
+              alt="napis The Seafood Restaurant na tle ryby"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Restauracja Seafood</span>
+              <p class="offer__category">Aplikacja</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/prime.jpg"
+              alt="słuchawki nauszne czarne"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Projekt Prime</span>
+              <p class="offer__category">Marketing</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/boxes.jpg"
+              alt="dwa pudełka"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Projekt Boxes</span>
+              <p class="offer__category">Aplikacja</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/map.jpg"
+              alt="mapa świata otwarta w laptopie"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Inspiration has no Borders</span>
+              <p class="offer__category">Strona internetowa</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/magazyn.jpg"
+              alt="otwarty magazyn"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Magazyn Limited Edition</span>
+              <p class="offer__category">Dizajn</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/lab.jpg"
+              alt="biała zawieszka z napisem"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Projekt LAB</span>
+              <p class="offer__category">Marketing</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="offer__item transition">
+          <figure class="offer__picture">
+            <img class="offer__img"
+              src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-02/main/images/laptop.jpg"
+              alt="osoba pracująca na laptopie"
+              width="370"
+              height="294"
+            />
+              <div class="offer__overlay">
+                <p class="offer__overlay-text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+                  wykorzystują tę platformę
+                  do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
+              </div>
+            <figcaption class="offer__text">
+              <span class="offer__label">Growing Business</span>
+              <p class="offer__category">Aplikacja</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-section container">
+        <div>
+          <a href="index.html" class="logo footer-contact__logo link transition"><span class="logo--color">Web</span>Studio</a>
+          <address>
+            <ul class="section__list footer-contact__list">
+              <li class="footer-contact__item footer-contact__item--light">m.Warszawa, Aleje Jerozolimskie 21</li>
+              <li class="footer-contact__item"><a href="mailto:info@example.com" class="footer-contact__link link transition">info@example.com</a></li>
+              <li class="footer-contact__item"><a href="tel:+48111111111" class="footer-contact__link link transition">+48 111 111 111</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-join">
+          <h3 class="section__title--footer">DOŁĄCZ DO NAS</h3>
+          <ul class="section__list footer-join__list">
+            <li>
+              <a class="footer-join__link link social-link transition" href="#">
+                <svg class="social-icon social-icon--footer">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-join__link link social-link transition" href="#">
+                <svg class="social-icon social-icon--footer">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-join__link link social-link transition" href="#">
+                <svg class="social-icon social-icon--footer">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="footer-join__link link social-link transition" href="#">
+                <svg class="social-icon social-icon--footer">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <form name="newsletter" autocomplete="off" novalidate>
+            <label class="section__title--footer">ZAPISZ SIĘ DO NEWSLETTERA</label>
+            <div class="newsletter__form">
+              <input
+                class="newsletter__box transition"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+              <button class="button button--newsletter transition" type="submit">
+                Zapisz się
+                <svg class="newsletter__icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

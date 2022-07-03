@@ -1,0 +1,46 @@
+.contact {
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+
+        &__item {
+    
+            &:first-child {
+                margin-right: 50px;
+            }
+    
+            &:hover svg,
+            &:focus svg,
+            &:visited svg {
+                fill: $brandColor;
+            }
+        }
+        &__icon {
+                    fill: $detailColor;
+                    margin-right: 10px;
+            
+                &--mail {
+                    width: 16px;
+                    height: 12px;
+                }
+            
+                &--tel {
+                    width: 10px;
+                    height: 16px;
+                }
+        }
+
+        &__link {
+            color: $detailColor;
+
+
+            &:visited {
+                color: $detailColor;
+            }
+
+            &:hover,
+            &:focus {
+                color: $brandColor;
+            }
+        }
+    }

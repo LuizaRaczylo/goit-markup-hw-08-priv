@@ -6,7 +6,28 @@
         &-section {
             display: flex;
             align-items: center;
+        }
+}
+@media screen and (min-width: 480px) {
+    .header-section {
+        height: 60px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header-section {
+        height: 80px;
+    }
+}
+
+/*.header {
+    margin-left: 0;
+    background: $brightColor;
+    border-bottom: 1px solid #ECECEC;
+
+        &-section {
+            display: flex;
+            align-items: center;
             justify-content: center;
             height: 80px;
         }
-}
+}*/

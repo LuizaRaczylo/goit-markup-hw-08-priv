@@ -1,5 +1,27 @@
 .logo {
     font-family: $logoFont;
+    transition-property: color;
+
+    &--color {
+            color: $brandColor;
+        }
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+    .logo {
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-size: 26px;
+        line-height: 1.19;
+        margin-right: 93px;
+    }
+}
+/*.logo {
+    font-family: $logoFont;
     font-size: 26px;
     line-height: 1.19;
     margin-right: 93px;
@@ -8,4 +30,4 @@
         &--color {
             color: $brandColor;
         }
-}
+}*/

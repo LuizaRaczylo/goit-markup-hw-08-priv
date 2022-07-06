@@ -34,6 +34,10 @@ body {
   .container {
     max-width: 480px;
   }
+  .container--offer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -958,6 +962,17 @@ body {
   margin-right: auto;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .filter {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    flex-wrap: wrap;
+    justify-content: start;
+    row-gap: 8px;
+    column-gap: 15px;
+  }
+}
 .offer__list {
   list-style-type: none;
   display: flex;
@@ -991,6 +1006,8 @@ body {
 
 .offer__img {
   display: block;
+  width: 370px;
+  height: 294px;
 }
 
 .offer__overlay {
@@ -1028,4 +1045,14 @@ body {
   color: #757575;
   font-size: 16px;
   line-height: 1.875;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .offer__list {
+    display: block;
+    padding: 0;
+  }
+  .offer__item {
+    width: 450px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -39,6 +39,8 @@
 
 .offer__img {
     display: block;
+    width: 370px;
+    height: 294px;
 }
 
 .offer__overlay {
@@ -77,4 +79,16 @@
     color: $detailColor;
     font-size: $subjectFont;
     line-height: 1.875;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .offer {
+
+        &__list {
+            display: block;
+            padding: 0;
+        }
+        &__item {
+            width: 450px;
+        }
+    }
 }

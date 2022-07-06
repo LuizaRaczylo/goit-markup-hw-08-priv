@@ -90,5 +90,11 @@
         &__item {
             width: 450px;
         }
+        &__item:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        &__img {
+            width: 450px;
+        }
     }
 }

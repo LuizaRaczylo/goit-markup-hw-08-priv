@@ -1055,4 +1055,10 @@ body {
   .offer__item {
     width: 450px;
   }
+  .offer__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .offer__img {
+    width: 450px;
+  }
 }/*# sourceMappingURL=main.css.map */

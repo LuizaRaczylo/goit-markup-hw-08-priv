@@ -8,3 +8,9 @@
             background-color: $brightColor;
         }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .team-social-list {
+        display: flex;
+        justify-content: center;
+    }
+}

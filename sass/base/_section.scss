@@ -5,9 +5,23 @@
         padding: 0;
         list-style-type: none;
     }
+    &__list--clients {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+    }
     &__title {
         display: flex;
         justify-content: center;
+    }
+    &__title--footer {
+        color: $brightColor;
+        font-size: $detailFont;
+        font-weight: 700;
+        line-height: 1.14;
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 }
 
@@ -24,6 +38,10 @@
                 line-height: 1.178;
                 margin-top: 0;
                 margin-bottom: 30px;
+            }
+            &__list--clients {
+                flex-wrap: wrap;
+                gap: 30px;
             }
     }
 }

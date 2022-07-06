@@ -10,3 +10,8 @@
             color: $brightColor;
         }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer-contact__logo {
+        margin-left: 163px;
+    }
+}

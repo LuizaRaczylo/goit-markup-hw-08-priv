@@ -5,6 +5,10 @@
     padding-top: 12px;
 
         &__list {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
             align-items: center;
         }
 
@@ -13,3 +17,14 @@
             transition-property: background-color;
         }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer-join {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+
+        &__list {
+            justify-content: space-between;
+        }
+        }
+    }

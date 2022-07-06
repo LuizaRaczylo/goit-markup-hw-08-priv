@@ -1,11 +1,10 @@
 .footer {
     background-color: $sectionColor;
+    width: 100%;
 
         &-section {
-            display: flex;
             padding-top: 60px;
             padding-bottom: 60px;
-            margin-left: auto;
         }
 }
 
@@ -38,4 +37,27 @@
         &:visited {
             color: $linkFooterColor;
 }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer {
+        max-width: 480px;
+        height: 603px;
+
+        &-contact__list {
+            max-width: 251px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &-contact__item {
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    .footer {
+        &-section {
+            display: flex;
+            margin-left: auto;
+        }
+    }
 }

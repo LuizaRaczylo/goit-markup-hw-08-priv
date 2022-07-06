@@ -11,5 +11,10 @@
         }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-
+    .clients {
+        &__item {
+            flex-wrap: wrap;
+            flex-basis: calc((100% - 30px)/2);
+        }
+    }
 }

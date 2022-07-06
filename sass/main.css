@@ -364,6 +364,11 @@ body {
   top: 46px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
+}
 .contact {
   align-items: center;
   justify-content: flex-end;
@@ -397,6 +402,11 @@ body {
   color: #2196F3;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contact {
+    display: none;
+  }
+}
 .logo {
   font-family: "Raleway", sans-serif;
   transition-property: color;
@@ -550,7 +560,6 @@ body {
   margin: 0 auto;
   background-color: #2F303A;
   background-repeat: no-repeat;
-  background-position: center top;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -631,9 +640,11 @@ body {
             color: $brightColor;
         }
 }*/
-.specification__item {
-  margin-right: 15px;
-  margin-left: 15px;
+.specification {
+  /*&__item {
+      margin-right: 15px;
+      margin-left: 15px;
+  }*/
 }
 .specification__product {
   background-color: #F5F4FA;
@@ -729,6 +740,11 @@ body {
   bottom: 4px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .assortment {
+    display: none;
+  }
+}
 .team {
   background-color: #F5F4FA;
 }
@@ -806,6 +822,12 @@ body {
   height: 60px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .clients__item {
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
 .clients__link {
   display: flex;
   justify-content: center;
@@ -862,7 +884,7 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
-    max-width: 480px;
+    min-width: 480px;
     height: 603px;
   }
   .footer-contact__list {

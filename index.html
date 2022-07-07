@@ -16,25 +16,39 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- PAGE TITLE -->
     <title>Studio</title>
   </head>
   <body>
     <header class="header">
       <div class="header-section container">
+        <!-- HEADER LOGO START -->
         <a href="index.html" class="logo header-section__logo link transition"
           ><span class="logo--color">Web</span>Studio</a
         >
+        <!-- HEADER LOGO END -->
+
+        <!-- NAVIGATION START -->
         <nav>
           <ul class="navigation section__list">
-            <li class="navigation__item ">
-              <a href="index.html" class="navigation__link link navigation__link--activepage transition">Agencja</a>
+            <li class="navigation__item">
+              <a
+                href="index.html"
+                class="navigation__link link navigation__link--activepage transition"
+                >Agencja</a
+              >
             </li>
             <li class="navigation__item">
               <a href="portfolio.html" class="navigation__link link transition">Portfolio</a>
             </li>
-            <li class="navigation__item"><a href="" class="navigation__link link transition">Kontakt</a></li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link link transition">Kontakt</a>
+            </li>
           </ul>
         </nav>
+        <!-- NAVIGATION END -->
+
+        <!-- HEADER CONTACTS START -->
         <ul class="contact section__list">
           <li class="contact__item">
             <a class="contact__link link transition" href="mailto:info@devstudio.com">
@@ -53,13 +67,20 @@
             >
           </li>
         </ul>
+        <!-- HEADER CONTACTS END -->
       </div>
     </header>
-    <main>   
+    <main>
+      <!-- BANNER START -->
       <section class="banner">
         <h1 class="banner__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button button--banner transition" type="button" data-modal-open>Zamów usługę</button>
-      </section>  
+        <button class="button button--banner transition" type="button" data-modal-open>
+          Zamów usługę
+        </button>
+      </section>
+      <!-- BANNER END -->
+
+      <!-- SPECIFICATION START -->
       <section class="section container container--specification">
         <ul class="section__list specification__list">
           <li class="specification__item">
@@ -111,8 +132,10 @@
             </p>
           </li>
         </ul>
-      </section>    
+      </section>
+      <!-- SPECIFICATION END -->
 
+      <!-- ASSORTMENT START -->
       <section class="section container assortment">
         <h2 class="section__title">Czym się zajmujemy</h2>
         <ul class="section__list">
@@ -145,7 +168,9 @@
           </li>
         </ul>
       </section>
+      <!-- ASSORTMENT END -->
 
+      <!-- TEAM START -->
       <section class="team">
         <div class="section container">
           <h2 class="section__title">Nasz zespół</h2>
@@ -155,7 +180,9 @@
                 <img
                   class="team__img"
                   src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team1-mobile.jpg"
-                  srcset="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team1-mobile%402x.jpg"
+                  srcset="
+                    https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team1-mobile%402x.jpg
+                  "
                   alt="Product Designer"
                 />
                 <figcaption class="team__text">
@@ -199,7 +226,9 @@
                 <img
                   class="team__img"
                   src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team2-mobile.jpg"
-                  srcset="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team2-mobile%402x.jpg"
+                  srcset="
+                    https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team2-mobile%402x.jpg
+                  "
                   alt="Frontend Developer"
                 />
                 <figcaption class="team__text">
@@ -243,7 +272,9 @@
                 <img
                   class="team__img"
                   src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team3-mobile.jpg"
-                  srcset="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team3-mobile%402x.jpg"
+                  srcset="
+                    https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team3-mobile%402x.jpg
+                  "
                   alt="Marketing"
                 />
                 <figcaption class="team__text">
@@ -287,7 +318,9 @@
                 <img
                   class="team__img"
                   src="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team4-mobile.jpg"
-                  srcset="https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team4-mobile%402x.jpg"
+                  srcset="
+                    https://raw.githubusercontent.com/LuizaRaczylo/goit-markup-hw-08/main/images/team4-mobile%402x.jpg
+                  "
                   alt="UI Designer"
                 />
                 <figcaption class="team__text">
@@ -328,8 +361,10 @@
             </li>
           </ul>
         </div>
-      </section>  
+      </section>
+      <!-- TEAM END -->
 
+      <!-- CLIENTS START -->
       <section class="section container">
         <h2 class="section__title">Nasi klienci</h2>
         <ul class="section__list--clients">
@@ -377,22 +412,39 @@
           </li>
         </ul>
       </section>
-
+      <!-- CLIENTS END -->
     </main>
 
     <footer class="footer">
       <div class="footer-section container">
         <div>
-          <a href="index.html" class="logo footer-contact__logo link transition"><span class="logo--color">Web</span>Studio</a>
+          <!-- LOGO FOOTER START -->
+          <a href="index.html" class="logo footer-contact__logo link transition"
+            ><span class="logo--color">Web</span>Studio</a
+          >
+          <!-- LOGO FOOTER END -->
+
+          <!-- FOOTER ADDRESS START -->
           <address>
             <ul class="section__list footer-contact__list">
-              <li class="footer-contact__item footer-contact__item--light">m.Warszawa, Aleje Jerozolimskie 21</li>
-              <li class="footer-contact__item"><a href="mailto:info@example.com" class="footer-contact__link link transition">info@example.com</a></li>
-              <li class="footer-contact__item"><a href="tel:+48111111111" class="footer-contact__link link transition">+48 111 111 111</a></li>
+              <li class="footer-contact__item footer-contact__item--light">
+                m.Warszawa, Aleje Jerozolimskie 21
+              </li>
+              <li class="footer-contact__item">
+                <a href="mailto:info@example.com" class="footer-contact__link link transition"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-contact__item">
+                <a href="tel:+48111111111" class="footer-contact__link link transition"
+                  >+48 111 111 111</a
+                >
+              </li>
             </ul>
           </address>
+          <!-- FOOTER ADDRESS END -->
         </div>
-
+        <!-- FOOTER JOIN START -->
         <div class="footer-join">
           <h3 class="section__title--footer">DOŁĄCZ DO NAS</h3>
           <ul class="footer-join__list">
@@ -426,7 +478,9 @@
             </li>
           </ul>
         </div>
+        <!-- FOOTER JOIN END -->
 
+        <!-- NEWSLETTER START -->
         <div class="newsletter">
           <form name="newsletter" autocomplete="off" novalidate>
             <label class="section__title--footer">ZAPISZ SIĘ DO NEWSLETTERA</label>
@@ -447,9 +501,10 @@
             </div>
           </form>
         </div>
+        <!-- NEWSLETTER END -->
       </div>
     </footer>
-    <!-- MODAL
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
@@ -510,7 +565,53 @@
         </form>
       </div>
     </div>
-  -->
+
     <script src="./js/modal.js"></script>
+
+    <div class="mobile-menu" js-menu-container id="mobile-menu">
+      <button class="mobile-menu__btn-close js-close-menu">
+        <svg class="mobile-menu__icon" viewBox="0 0 19 19">
+          <use href="./images/icons.svg#icon-menu_mobile"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item">
+          <a href="#" class="mobile-menu__link">Agencja</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="#" class="mobile-menu__link">Portfolio</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="#" class="mobile-menu__link">Kontakt</a>
+        </li>
+      </ul>
+
+    <div class="mobile-menu__contact">
+        <ul class="mobile-menu__list mobile-menu__list--margin-bottom">
+          <li class="mobile-menu__item mobile-menu__item--margin-bottom">
+            <a href="tel:+48111111111" class="mobile-menu__link mobile-menu__link--phone">+48 111 111 111</a>
+          </li>
+          <li class="mobile-menu__item mobile-menu__item--margin-bottom">
+            <a href="mailto:info@devstudio.com" class="mobile-menu__link mobile-menu__link--email"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="mobile-menu__social-list">
+          <li>
+            <a href="#" class="mobile-menu__social-link">instagram</a>
+          </li>
+          <li>
+            <a href="#" class="mobile-menu__social-link">twitter</a>
+          </li>
+          <li>
+            <a href="#" class="mobile-menu__social-link">facebook</a>
+          </li>
+          <li><a href="#" class="mobile-menu__social-link">linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

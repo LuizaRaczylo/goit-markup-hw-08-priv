@@ -1,0 +1,133 @@
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 48px 40px;
+    background-color: red;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: $transition;
+
+    &.is-open {
+        transform: translateX(0);
+    }
+
+    &__list {
+        flex-grow: 1;
+        list-style: none;
+
+        &--margin-bottom {
+            margin-bottom: 64px;
+        }
+    }
+
+    &__item {
+        &--margin-bottom:not(:last-child) {
+            margin-bottom: 32px;
+        }
+    }
+
+    &__link {
+        font-family: 'roboto';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.175;
+        letter-spacing: 0.02em;
+        color: $text-color;
+        text-decoration: none;
+        transition: color;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: red;
+        }
+
+        &--phone {
+            font-size: 34px;
+            line-height: 1.18;
+            color: red;
+        }
+
+        &--email {
+            font-size: 24px;
+            line-height: 1.17;
+            color: red;
+        }
+
+        &--current-page {
+            color: $brand-color;
+        }
+    }
+
+    &__btn-close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+        color: black;
+        transition: color;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $brandColor;
+        }
+    }
+
+    &__icon {
+        width: 19px;
+        height: 19px;
+        fill: currentColor;
+    }
+
+    &__contact {
+        flex-grow: 0;
+    }
+
+    &__social-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        list-style-type: none;
+    }
+
+    &__social-link {
+        display: flex;
+        align-items: center;
+        font-family: 'roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: $brand-color;
+    }
+
+    &__social-icon {
+        height: 22px;
+        width: 1px;
+        margin: 0 10px;
+    }
+}
+
+
+// Tablet 768-1200//
+@media screen and (min-width: $tablet) {
+    .mobile-menu {
+        display: none;
+    }
+}

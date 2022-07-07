@@ -1,8 +1,8 @@
 .newsletter {
-    width: 570px;
+    /*width: 570px;
     height: 86px;
     margin-left: 78px;
-    padding-top: 12px;
+    padding-top: 12px;*/
 
         &__form {
             display: flex;
@@ -44,7 +44,8 @@
             display: block;
         }
         &__box {
-            margin: 20px auto;
+            width: 450px;
+            margin: 0 20px 15px;
         }
     }
 }

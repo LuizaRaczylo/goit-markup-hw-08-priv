@@ -43,6 +43,10 @@
                 flex-wrap: wrap;
                 gap: 30px;
             }
+            &__title--footer {
+                display: block;
+                text-align: center;
+            }
     }
 }
 /* .section {
